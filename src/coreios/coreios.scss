@@ -1,0 +1,99 @@
+@import url(../fonts.scss);
+
+.pagina-lista-cep {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: rgb(234, 234, 234);
+  font-size: 30px;
+
+  
+  h1 {
+      font: 40px 'font6';
+      color: #fff;
+  }
+  input {
+      font: 18px 'font6';
+      border-radius: 50px;
+      color: #000000;
+      padding: 5px;
+      margin: 15px;
+  }
+
+
+  button {
+      background-color: rgb(146, 29, 196);
+      
+      cursor: pointer;
+      outline: none;
+      border: none;
+
+      color: #fff;
+      font-size: 22px;
+      padding: 7px 15px;
+  }
+
+  button:hover {
+      background-color: rgb(113, 29, 196);
+  }
+
+
+
+  .container {
+      background-color: #000000cb;
+      border-radius: 50px;
+      box-shadow: 0px 0px 10px 10px #dedede;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: start;
+      padding: 15px 20vh;
+  }
+
+  .container > div {
+     font: 25px 'font5';
+     border-radius: 50px;
+     color: #ffffff;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+  }
+
+  .container ul {
+    font: 22px 'font5';
+    border-radius: 50px;
+    background-color: #dedede;
+      height: 35vh;
+      width: 29vw;
+      overflow: auto;
+      display: flex;
+      flex-direction: column;
+     list-style: none;
+    }
+
+    .container li {
+        color: #000000;
+        margin: 2px 10vh;
+    }
+  
+  .container ul::-webkit-scrollbar {
+      width: 10px;
+  }
+    
+  .container ul::-webkit-scrollbar-track {
+      background-color: transparent;
+      
+  }
+  
+  .container ul::-webkit-scrollbar-thumb {
+      background-color: rgb(42, 40, 40);
+      border-radius: 20px;
+      
+  }
+  
+  
+
+
+}

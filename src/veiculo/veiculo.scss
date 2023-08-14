@@ -1,0 +1,86 @@
+h1 {
+  font: 20px 'font6';
+  color: #000000
+}
+
+h2 {
+  font: 20px 'font6';
+  color: #000000;
+  margin-left: 10px;
+}
+
+h3 {
+  font: 20px 'font6';
+  color: #000000
+}
+
+.veiculo{
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+.veiculo-test{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 155px;
+}
+
+.fundo-carro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #CACACA;
+   Width:298px;
+   Height:408px;
+}
+
+.fundo-carro img{
+  Width: 247px;
+   Height:  138px;
+}
+
+section{
+   display: flex;
+   flex-direction: row;
+   background-color: #ffffff ;
+}
+
+.meio-test{
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.add-Input{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+
+}
+
+ input{ 
+ margin-left: 10px;
+   border-radius: 1px;
+   width: 200px;
+   height: 30px;
+}
+
+.valor-total input {
+  display: flex;
+  border-radius: 1px;
+  width: 296px;
+  height: 38px;
+
+}
+
+.add-2{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

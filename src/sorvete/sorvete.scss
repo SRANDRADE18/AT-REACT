@@ -1,0 +1,155 @@
+
+
+.pagina-lista-tarefa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  font-size: 30px;
+
+  .cabecalho {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   img{
+    height: 30vh;
+    width: 40vw;
+   }
+}
+
+  h1 {
+      font: 20px 'font6';
+      background-color: #66344A; 
+      padding: 10px     ;
+      color: #ffffff;
+      position: absolute;
+      margin: -55px 20px;
+  }
+  h2{
+    font :18px 'font6';
+    color: 646464;
+    margin-left: 20px;
+   
+  }
+  .input {
+      font-size: 10px 'font6';
+      display: flex;
+      flex-direction: row;
+      align-items:center ;
+      color: #000000;
+  }
+.input input{
+    height: 38px;
+    width: 158px;
+    border-radius: 5px;
+    margin: 2px;
+    margin-left: 20px;
+}
+
+  button {
+      background-color: #8A4A66;
+      cursor: pointer;
+      border-radius:3px;
+      outline: none;
+      border: none;
+      color: #fff;
+      font-size: 22px;
+      padding: 7px 15px;
+  }
+
+  button:hover {
+      background-color: rgb(113, 29, 196);
+  }
+
+
+
+.add02{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+  .adicionar {
+      background-color: rgba(255, 255, 255, 0.796);
+      border-radius: 5px;
+      box-shadow: 0px 0px 10px 10px #dedede;
+      display: flex;
+      justify-content:center;
+      align-items: start;
+      height: 70vh;
+      width: 40vw;
+  }
+
+
+  .adicionar {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+
+  
+  .lista ul {
+    background-color: #ffffff;
+     font: 18px 'font6';
+      height: 40vh;
+      width: 37vw;
+      overflow: auto;
+      display: flex;
+      flex-direction: row;
+     list-style: none;
+    }
+
+    .test01 li {
+      font-size: 18px 'font6';
+      background-color: #ffffff;    
+      color: #000000;      
+      border-style: ridge;
+      height: 5vh;
+      width: 25vw;    
+      border-right: none;
+    }
+  .test li{
+    text-align: center;
+    font-size: 18px 'font6';
+    background-color: #ffffff;    
+    color: #000000;      
+    border-style: ridge;
+    height: 5vh;
+    width: 5vw;
+    border-left: none;
+  }
+  .lista ul::-webkit-scrollbar {
+    display: flex;
+    flex-direction: column;
+      width: 1vw;
+  }
+    
+  .lista ul::-webkit-scrollbar-track {
+      background-color: transparent;
+      
+  }
+  
+  .lista ul::-webkit-scrollbar-thumb {
+      background-color: rgb(42, 40, 40);
+      border-radius: 20px;
+      
+  }
+
+  .calculos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .calculos h3{
+    font: 19px 'font6';
+    margin-left: 250px;
+  }
+
+
+}

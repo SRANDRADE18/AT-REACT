@@ -1,0 +1,23 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Menu-lista{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+}
+.Menu-lista p{
+    margin: 36px;
+}
+.Menu-lista img{
+    width: 35px;
+    height: 35px;
+}
+header img{
+    width: 145px;
+height: 58.283px;
+}
